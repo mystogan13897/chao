@@ -24,5 +24,13 @@ namespace duan2
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(
+                "thong báo",
+                "xin chào mọi người"
+                );
+        }
     }
 }
